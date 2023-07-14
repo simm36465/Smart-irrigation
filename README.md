@@ -25,6 +25,9 @@ The Android application communicates with the ESP32 microcontroller over a wirel
 ![image](https://github.com/simm36465/Smart-irrigation/assets/35069798/fe2c90e7-e857-427d-94a0-91b6faa742f5)
 ![image](https://github.com/simm36465/Smart-irrigation/assets/35069798/256fea24-81cd-4f2a-a0b8-16cdb813356b)
 ![image](https://github.com/simm36465/Smart-irrigation/assets/35069798/61787532-90a6-4016-8b81-fe8231497251)
+![image](https://github.com/simm36465/Smart-irrigation/assets/35069798/9e9132d4-3bae-4a9c-bcbf-f069ed0f5e3f)
+![image](https://github.com/simm36465/Smart-irrigation/assets/35069798/8a07cf44-352e-4964-a01a-09aa3242cfb8)
+
 
 
 
