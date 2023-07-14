@@ -3,11 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-/*
-historizes : https://api.tomorrow.io/v4/weather/history/recent?location=rabat&apikey=6MKGH2kDZsc9zDL2u7ntHB4RxNHGYMpv
-api 1 : https://api.tomorrow.io/v4/weather/realtime?location=rabat&apikey=6MKGH2kDZsc9zDL2u7ntHB4RxNHGYMpv
-api 2 : https://api.openweathermap.org/data/2.5/weather?q=rabat&units=metric&appid=eb42fa15c69d167b5c2aec75e7d45b12
-*/
+
 
 class WeatherScreen extends StatefulWidget {
   const WeatherScreen({Key? key}) : super(key: key);
@@ -27,7 +23,7 @@ class _WeatherScreenState extends State<WeatherScreen> {
 
   Future<Map<String, dynamic>> fetchWeatherData() async {
     final response = await http.get(Uri.parse(
-        'https://api.tomorrow.io/v4/weather/realtime?location=rabat&&units=metric&apikey=6MKGH2kDZsc9zDL2u7ntHB4RxNHGYMpv'));
+        'https://api.tomorrow.io/v4/weather/realtime?location=rabat&&units=metric&apikey=YOUR API KEY'));
     if (response.statusCode == 200) {
       return json.decode(response.body);
     } else {
