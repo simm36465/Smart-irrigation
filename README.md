@@ -19,9 +19,14 @@ The ESP32 reads sensor data periodically and uses it to make decisions about whe
 To interact with the smart irrigation system, an Android application is developed using Flutter framework. This application provides a user-friendly interface for monitoring and controlling the irrigation process remotely. Users can access the application from their Android devices, enabling them to check real-time sensor readings, configure irrigation settings, and manually trigger irrigation cycles.
 
 The Android application communicates with the ESP32 microcontroller over a wireless connection, such as Wi-Fi or Bluetooth. It sends commands to the ESP32 to retrieve sensor data and control the irrigation process. The application also receives data from the microcontroller, allowing users to visualize and analyze the collected information.
+
+
+
 ![image](https://github.com/simm36465/Smart-irrigation/assets/35069798/fe2c90e7-e857-427d-94a0-91b6faa742f5)
 ![image](https://github.com/simm36465/Smart-irrigation/assets/35069798/256fea24-81cd-4f2a-a0b8-16cdb813356b)
 ![image](https://github.com/simm36465/Smart-irrigation/assets/35069798/61787532-90a6-4016-8b81-fe8231497251)
+
+
 
 
 The project includes the following deliverables:
