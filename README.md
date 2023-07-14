@@ -9,7 +9,9 @@ A new Flutter project.
 This project aims to create a smart irrigation system using an ESP32 microcontroller and an Android application built with Flutter. The system combines hardware and software components to automate and optimize the irrigation process for plants, ensuring efficient water usage and improved plant health.
 
 The hardware component of the project involves an ESP32 microcontroller, which acts as the main controller for the irrigation system. The ESP32 is equipped with sensors to monitor various environmental parameters such as soil moisture, temperature, and humidity. Additionally, it is connected to a water pump and valves to control the irrigation process.
-![image](https://github.com/simm36465/Smart-irrigation/assets/35069798/7528a830-c07f-40c9-8750-9b9b1f62f4ac)
+
+![image](https://github.com/simm36465/Smart-irrigation/assets/35069798/03154cfd-e1e2-4b1a-bb45-e8e53f955faa)
+
 
 
 The ESP32 reads sensor data periodically and uses it to make decisions about when and how much to irrigate. Based on predefined thresholds and user-defined settings, the microcontroller determines if watering is necessary. If watering is required, the ESP32 activates the water pump and opens the appropriate valves to deliver water to the plants. The system ensures that plants receive the optimal amount of water, preventing both overwatering and underwatering.
